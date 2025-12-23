@@ -6,7 +6,6 @@ app = FastAPI()
 
 
 app.include_router(chatBot.router, prefix="/chat", tags=["chat"])
-app.include_router(chatBot.router, prefix="/whatsapp" tags=["WhatsApp"])
 
 
 
